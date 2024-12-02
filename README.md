@@ -13,7 +13,7 @@
 ## Description
 
 ### Project
-**RANDrumizer** leverages an LSTM-VAE model to randomly generate symbolic drum patterns, each corresponding to a single 4/4 measure. While being a primitive neural network with limited performance, it serves as a functional demonstration of sequence generation in music, offering insight into how AI can create rhythmic structures despite its simplicity.
+**RANDrumizer** leverages an LSTM-VAE neural network to randomly generate symbolic drum patterns, each corresponding to a single 4/4 measure. Although it is a relatively simple model with limited performance, it serves as a functional demonstration of rhythmic sequence generation, providing a basis for more sophisticated approaches.
 
 ### Repository
 The code in this repository is contained in a single *Jupyter Notebook*, namely [`main.ipynb`](main.ipynb), which builds, trains and tests the neural network model. To demonstrate this process, a custom dataset compiled from numerous MIDI drum tracks and provided in the [*Files*](Files) directory is utilized.
